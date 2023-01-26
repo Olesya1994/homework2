@@ -88,9 +88,9 @@ public class Main {
         var boxerWeight = boxerWeight1 + boxerWeight2;
         System.out.println("Общий вес двух бойцов "+ boxerWeight+ " кг.");
         var weightDifference1 = boxerWeight2 - boxerWeight1;
-        System.out.println("Разница между весами бойцов "+ weightDifference1+ " кг.");
+        System.out.println("Разница между весами бойцов (способ 1) "+ weightDifference1+ " кг.");
         var weightDifference2 = boxerWeight % boxerWeight1;
-        System.out.println("Разница между весами бойцов "+ weightDifference2+ " кг.");
+        System.out.println("Разница между весами бойцов (способ 2)"+ weightDifference2+ " кг.");
     }
     public static void task8 () {
         System.out.println("Задача 8");
@@ -101,6 +101,6 @@ public class Main {
         System.out.println("Всего работников в компании — "+ employees+ " человек");
         employees += 94;
         workHours = employees * hoursForOne;
-        System.out.println("Если в компании работает "+ employees + " человек, то всего " + workHours +" часов работы может быть поделено между сотрудниками");
+        System.out.println("Если в компании работает "+ employees + " человек, то всего " + workHours +" часа работы может быть поделено между сотрудниками");
     }
 }
